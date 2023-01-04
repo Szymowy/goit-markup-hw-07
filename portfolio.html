@@ -26,42 +26,44 @@
     <link rel="stylesheet" href="css/modern-normalize.css" />
   </head>
   <body>
-    <header class="mount">
-      <div class="container little-top">
-        <div class="wrapper start">
-          <div class="top-stil">
-            <a class="stil" href="index.html"
+    <header class="line">
+      <div class="container logo">
+        <div class="wrapper logo__inter">
+          <div class="logo__upstil">
+            <a class="logo__upstil--breand" href="index.html"
               ><span class="web">Web</span>Studio</a
             >
           </div>
           <div>
             <nav>
-              <ul class="wrapper going">
+              <ul class="wrapper logo__pages">
                 <li>
-                  <a class="black-link" href="index.html">Agencja</a>
+                  <a class="logo__pages--name" href="index.html">Agencja</a>
                 </li>
-                <li class="active">
-                  <a class="black-link" href="portfolio.html">Portfolio</a>
+                <li class="logo__pages--active">
+                  <a class="logo__pages--name" href="portfolio.html"
+                    >Portfolio</a
+                  >
                 </li>
                 <li>
-                  <a class="black-link" href="index.html">Kontakt</a>
+                  <a class="logo__pages--name" href="index.html">Kontakt</a>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
-        <div class="navi">
-          <ul class="little-top mobil">
+        <div class="logo__navi">
+          <ul class="logo logo__contact">
             <li>
               <a href="mailto:info@S.com">
-                <svg class="wait" width="161px" height="16px">
+                <svg class="logo__contact--color" width="161px" height="16px">
                   <use href="./images/icons.svg#icon-E-mail"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="tel:+48111111111">
-                <svg class="wait" width="130px" height="16px">
+                <svg class="logo__contact--color" width="130px" height="16px">
                   <use href="./images/icons.svg#icon-Tel"></use>
                 </svg>
               </a>
@@ -326,73 +328,74 @@
         </div>
       </section>
     </main>
-    <footer class="wall-secend">
-      <div class="container little-top">
+    <footer class="down-wall">
+      <div class="container logo">
         <div>
-          <a class="stil-two" href="index.html"
-            ><span class="web">Web</span>Studio</a
+          <a class="logo__downstil" href="index.html"
+            ><span class="logo--breand">Web</span>Studio</a
           >
           <address>
             <ul class="post">
-              <li class="little-post">m. Warszawa, Aleje Jerozolimskie 21</li>
-              <li class="little-post">
-                <a class="address-link" href="mailto:info@devstudio.com"
+              <li class="post__info">m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li class="post___info">
+                <a class="post__info--contact" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="little-post">
-                <a class="address-link" href="tel:+48111111111"
+              <li class="post___info">
+                <a class="post__info--contact" href="tel:+48111111111"
                   >+48 111 111 111</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="center">
-          <a class="lost">Dołącz do nas</a>
-          <ul class="wrapper four-circle">
-            <li class="cheap-down circle">
-              <svg class="cookie" width="44px" height="44px">
+        <div class="connect">
+          <a class="connect__join">Dołącz do nas</a>
+          <ul class="wrapper connect__circles">
+            <li class="connect__wheel connect__social">
+              <svg class="circles--inter" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-instagram_li"></use>
               </svg>
             </li>
-            <li class="cheap-down circle">
-              <svg class="cookie" width="44px" height="44px">
+            <li class="connect__wheel connect__social">
+              <svg class="circles--inter" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-twitter_li"></use>
               </svg>
             </li>
-            <li class="cheap-down circle">
-              <svg class="cookie" width="44px" height="44px">
+            <li class="connect__wheel connect__social">
+              <svg class="circles--inter" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-facebook_li"></use>
               </svg>
             </li>
-            <li class="cheap-down circle">
-              <svg class="cookie" width="44px" height="44px">
+            <li class="connect__wheel connect__social">
+              <svg class="circles--inter" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-linkedin_li"></use>
               </svg>
             </li>
           </ul>
         </div>
-        <div class="center">
-          <p class="lost">Zapisz się do newslettera</p>
-          <from>
+        <div class="connect">
+          <form>
+            <p class="connect__join">Zapisz się do newslettera</p>
             <label>
               <input
                 type="email"
                 name="email"
                 placeholder="E-mail"
-                class="letter"
+                class="connect__join--letter"
+                required
               />
             </label>
             <button type="submit" class="push-down">
-              <div class="point-send">
-                <p class="name-send">Zapisz się</p>
-                <svg class="icon-send" width="44px" height="44px">
+              <span class="push-down__label">
+                <span class="push-down__label--send">Zapisz się</span>
+                <svg class="push-down__label--icon" width="44px" height="44px">
                   <use href="./images/icon-send.svg#icon-icon-send"></use>
                 </svg>
-              </div>
+              </span>
             </button>
-          </from>
+          </form>
         </div>
       </div>
     </footer>

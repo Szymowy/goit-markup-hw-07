@@ -41,19 +41,19 @@ ul {
 
 /* type header */
 
-.mount {
+.line {
   border-bottom: 1px ridge;
 }
-.little-top {
+.logo {
   display: flex;
 }
-.start {
+.logo__inter {
   gap: 93px;
 }
-.top-stil {
+.logo__upstil {
   padding: 24px 0px 25px;
 }
-.stil {
+.logo__upstil--breand {
   font-family: "Raleway", sans-serif;
   color: var(--coffee);
   font-size: 26px;
@@ -61,17 +61,17 @@ ul {
   margin-right: 93px;
   text-decoration: none;
 }
-.stil:focus {
+.logo__upstil--breand:focus {
   color: var(--sky);
 }
-.going {
+.logo__pages {
   gap: 46px;
   padding: 32px 0px;
 }
-.active {
+.logo__pages--active {
   position: relative;
 }
-.active a::after {
+.logo__pages--active a::after {
   content: "";
   position: absolute;
   display: block;
@@ -81,30 +81,30 @@ ul {
   background: #2196f3;
   border-radius: 2px;
 }
-.black-link {
+.logo__pages--name {
   color: inherit;
   font-weight: 500;
   font-size: var(pixel);
   line-height: 1.14;
   text-decoration: none;
 }
-.black-link:hover,
-.black-link:focus {
+.logo__pages--name:hover,
+.logo__pages--name:focus {
   color: var(--sky);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navi {
+.logo__navi {
   margin-left: auto;
 }
-.mobil {
+.logo__contact {
   gap: 50px;
   padding: 32px 0px;
 }
-.wait {
+.logo__contact--color {
   fill: var(--cloud);
 }
-.wait:hover,
-.wait:focus {
+.logo__contact--color:hover,
+.logo__contact--color:focus {
   fill: var(--sky);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -271,7 +271,7 @@ ul {
   fill: var(--milk);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cookie {
+.circles--inter {
   padding: 12px;
 }
 .icon {
@@ -375,19 +375,19 @@ ul {
 
 /* type footer */
 
-.wall-secend {
+.down-wall {
   background: var(--fog);
   padding: 60px 0px;
   border-top: 1px ridge;
 }
-.stil-two {
+.logo__downstil {
   font-family: "Raleway", sans-serif;
   color: var(--milk);
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
-.web {
+.logo--breand {
   color: var(--sky);
 }
 .post {
@@ -395,61 +395,61 @@ ul {
   font-style: normal;
   padding-top: 20px;
 }
-.little-post {
+.post__info {
   padding-bottom: 9px;
 }
-.address-link {
+.post__info--contact {
   color: var(--cloud);
   font-style: normal;
   font-size: var(--pixel);
   line-height: 1.5;
   text-decoration: none;
 }
-.address-link:hover,
-.address-link:focus {
+.post__info--contact:hover,
+.post__info--contact:focus {
   color: var(--sky);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.center {
+.connect {
   padding-top: 4px;
   padding-left: 70px;
 }
-.lost {
+.connect__join {
   color: var(--milk);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.four-circle {
+.connect__circles {
   padding-top: 20px;
   gap: 10px;
 }
-.cheap-down {
+.connect__wheel {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
 }
-.cheap-down:hover,
-.cheap-down:focus {
+.connect__wheel:hover,
+.connect__wheel:focus {
   background-color: var(--sky);
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.circle {
+.connect__social {
   fill: var(--milk);
 }
-.circle:hover,
-.circle:focus {
+.connect__social:hover,
+.connect__social:focus {
   fill: var(--milk);
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.letter {
+.connect__join--letter {
   background-color: var(--fog);
   width: 358px;
-  height: 50px;
+  height: 48px;
   padding-left: 16px;
   margin-top: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -478,18 +478,18 @@ ul {
   fill: var(--night);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.point-send {
+.push-down__label {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.name-send {
+.push-down__label--send {
   font-size: 16px;
   line-height: 1.875;
   width: 82px;
   height: 30px;
 }
-.icon-send {
+.push-down__label--icon {
   padding-left: 18px;
 }
 
