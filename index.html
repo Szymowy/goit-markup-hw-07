@@ -73,13 +73,17 @@
       </div>
     </header>
     <main>
-      <section class="wall-title">
+      <section class="main-wall">
         <div class="container">
-          <div class="title">
+          <div class="main-wall__title">
             <h1>efektywne rozwiązania dla twojego biznesu</h1>
           </div>
-          <div class="can">
-            <button class="push one-push service" type="button" data-modal-open>
+          <div class="main-wall__button">
+            <button
+              class="button button__label button__label--shadow"
+              type="button"
+              data-modal-open
+            >
               Zamów usługę
             </button>
           </div>
@@ -90,48 +94,48 @@
           <ul class="mag wrapper">
             <li>
               <h3 class="box">
-                <svg class="seat" width="65px" height="70px">
+                <svg class="box__icon" width="65px" height="70px">
                   <use href="./images/icons2.svg#icon-antenna-1"></use>
                 </svg>
                 LOREM IPSUM
               </h3>
-              <p class="boxs inter">
+              <p class="box__text box__inter">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
               <h3 class="box">
-                <svg class="seat" width="65px" height="70px">
+                <svg class="box__icon" width="65px" height="70px">
                   <use href="./images/icons2.svg#icon-clock-1"></use>
                 </svg>
                 LOREM IPSUM
               </h3>
-              <p class="boxs inter">
+              <p class="box__text box__inter">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
               <h3 class="box">
-                <svg class="seat" width="65px" height="70px">
+                <svg class="box__icon" width="65px" height="70px">
                   <use href="./images/icons2.svg#icon-diagram-1"></use>
                 </svg>
                 LOREM IPSUM
               </h3>
-              <p class="boxs inter">
+              <p class="box__text box__inter">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
               <h3 class="box">
-                <svg class="seat" width="65px" height="70px">
+                <svg class="box__icon" width="65px" height="70px">
                   <use href="./images/icons2.svg#icon-astronaut-1"></use>
                 </svg>
                 LOREM IPSUM
               </h3>
-              <p class="boxs inter">
+              <p class="box__text box__inter">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -141,47 +145,49 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="skil team wrapper">Czym sie zajmujemy</h2>
-          <ul class="pill wrapper">
+          <h2 class="section__type section__place wrapper">
+            Czym sie zajmujemy
+          </h2>
+          <ul class="section__inter wrapper">
             <li>
-              <div class="box-title">
+              <div class="photo-work">
                 <img
-                  class="block"
+                  class="photo-work__block"
                   src="images/image1.jpg"
                   alt="komputer"
                   width="370"
                   height="294"
                 />
-                <div class="overlay-box-title">
-                  <p class="box-title-text">APLIKACJE KOMPUTEROWE</p>
+                <div class="photo-work__overlay">
+                  <p class="photo-work__text">APLIKACJE KOMPUTEROWE</p>
                 </div>
               </div>
             </li>
             <li>
-              <div class="box-title">
+              <div class="photo-work">
                 <img
-                  class="block"
+                  class="photo-work__block"
                   src="images/img.png"
                   alt="komputer2"
                   width="370"
                   height="294"
                 />
-                <div class="overlay-box-title">
-                  <p class="box-title-text">APLIKACJE MOBILNE</p>
+                <div class="photo-work__overlay">
+                  <p class="photo-work__text">APLIKACJE MOBILNE</p>
                 </div>
               </div>
             </li>
             <li>
-              <div class="box-title">
+              <div class="photo-work">
                 <img
-                  class="block"
+                  class="photo-work__block"
                   src="images/image3.jpg"
                   alt="tablet"
                   width="370"
                   height="294"
                 />
-                <div class="overlay-box-title">
-                  <p class="box-title-text">ROZWIĄZANIA GRAFICZNE</p>
+                <div class="photo-work__overlay">
+                  <p class="photo-work__text">ROZWIĄZANIA GRAFICZNE</p>
                 </div>
               </div>
             </li>
@@ -190,37 +196,39 @@
       </section>
       <section class="section wall">
         <div class="container">
-          <h2 class="skil team rock wrapper">Nasz zespół</h2>
-          <ul class="pill wrapper">
-            <li class="pills">
+          <h2 class="section__type section__place wall__place wrapper">
+            Nasz zespół
+          </h2>
+          <ul class="section__inter wrapper">
+            <li class="photo-people">
               <figure>
                 <img
-                  class="card"
+                  class="photo-people__img"
                   src="images/men1.jpg"
                   alt="man"
                   width="270"
                   height="260"
                 />
-                <figcaption class="man">
+                <figcaption class="photo-people__man">
                   <h3>John Doe</h3>
-                  <p class="inter">Product Designer</p>
-                  <ul class="wrapper social">
-                    <li class="cheap live">
+                  <p class="box__inter">Product Designer</p>
+                  <ul class="wrapper photo-people__inter">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-instagram_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-twitter_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-facebook_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-linkedin_li"></use>
                       </svg>
@@ -229,35 +237,35 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="pills">
+            <li class="photo-people">
               <figure>
                 <img
-                  class="card"
+                  class="photo-people__img"
                   src="images/woman_rel.jpg"
                   alt="woman"
                   width="270"
                   height="260"
                 />
-                <figcaption class="man">
+                <figcaption class="photo-people__man">
                   <h3>John Doe</h3>
-                  <p class="inter">Product Designer</p>
-                  <ul class="wrapper social">
-                    <li class="cheap live">
+                  <p class="box__inter">Product Designer</p>
+                  <ul class="wrapper photo-people__inter">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-instagram_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-twitter_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-facebook_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-linkedin_li"></use>
                       </svg>
@@ -266,35 +274,35 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="pills">
+            <li class="photo-people">
               <figure>
                 <img
-                  class="card"
+                  class="photo-people__img"
                   src="images/men_image2.jpg"
                   alt="second man"
                   width="270"
                   height="260"
                 />
-                <figcaption class="man">
+                <figcaption class="photo-people__man">
                   <h3>John Doe</h3>
-                  <p class="inter">Product Designer</p>
-                  <ul class="wrapper social">
-                    <li class="cheap live">
+                  <p class="box__inter">Product Designer</p>
+                  <ul class="wrapper photo-people__inter">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-instagram_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-twitter_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-facebook_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-linkedin_li"></use>
                       </svg>
@@ -303,35 +311,35 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="pills">
+            <li class="photo-people">
               <figure>
                 <img
-                  class="card"
+                  class="photo-people__img"
                   src="images/men_image3.jpg"
                   alt="third man"
                   width="270"
                   height="260"
                 />
-                <figcaption class="man">
+                <figcaption class="photo-people__man">
                   <h3>John Doe</h3>
-                  <p class="inter">Product Designer</p>
-                  <ul class="wrapper social">
-                    <li class="cheap live">
+                  <p class="box__inter">Product Designer</p>
+                  <ul class="wrapper photo-people__inter">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-instagram_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-twitter_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-facebook_li"></use>
                       </svg>
                     </li>
-                    <li class="cheap live">
+                    <li class="photo-people__type photo-people__type--icon">
                       <svg class="circles--inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-linkedin_li"></use>
                       </svg>
@@ -345,35 +353,37 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="skil team rock wrapper">Nasi klienci</h2>
-          <ul class="pill wrapper">
-            <li class="icon live-two">
-              <svg class="snacks" width="170px" height="90px">
+          <h2 class="section__type section__place wall__place wrapper">
+            Nasi klienci
+          </h2>
+          <ul class="section__inter wrapper">
+            <li class="icon icon__type">
+              <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-yaco"></use>
               </svg>
             </li>
-            <li class="icon live-two">
-              <svg class="snacks" width="170px" height="90px">
+            <li class="icon icon__type">
+              <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-companytaglinehere"></use>
               </svg>
             </li>
-            <li class="icon live-two">
-              <svg class="snacks" width="170px" height="90px">
+            <li class="icon icon__type">
+              <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-company"></use>
               </svg>
             </li>
-            <li class="icon live-two">
-              <svg class="snacks" width="170px" height="90px">
+            <li class="icon icon__type">
+              <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-fosterpeters"></use>
               </svg>
             </li>
-            <li class="icon live-two">
-              <svg class="snacks" width="170px" height="90px">
+            <li class="icon icon__type">
+              <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-brand"></use>
               </svg>
             </li>
-            <li class="icon live-two">
-              <svg class="snacks" width="170px" height="90px">
+            <li class="icon icon__type">
+              <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-companytagline"></use>
               </svg>
             </li>
