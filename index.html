@@ -467,91 +467,95 @@
       <div class="modal">
         <button type="button" class="close" data-modal-close>X</button>
         <p class="open">Zostaw swoje dane w formularzu poniżej</p>
-        <form class="open-from">
+        <form class="open__form">
           <div>
-            <div class="sky-icon">
-              <label for="user_name" class="open-label"> Imie </label>
+            <div class="frame">
+              <label for="user_name" class="frame__label"> Imie </label>
               <input
                 type="text"
                 name="Imie"
                 minlength="5"
                 maxlength="100"
                 id="user_name"
-                class="open-text"
+                class="frame__inside"
               />
               <p>
                 <svg
                   width="14px"
                   height="14px"
-                  class="open-icon open-icon-name"
+                  class="frame__icon frame__icon--name"
                 >
                   <use href="./images/icon_send2.svg#icon-person_icon"></use>
                 </svg>
               </p>
             </div>
 
-            <div class="sky-icon">
-              <label for="user_tel" class="open-label"> Telefon </label>
+            <div class="frame">
+              <label for="user_tel" class="frame__label"> Telefon </label>
               <input
                 type="tel"
                 name="Telefon"
                 minlength="3"
                 maxlength="10"
                 id="user_tel"
-                class="open-text"
-                required
-              />
-              <p>
-                <svg width="14px" height="14px" class="open-icon open-icon-tel">
-                  <use href="./images/icon_send2.svg#icon-phone_icon"></use>
-                </svg>
-              </p>
-            </div>
-
-            <div class="sky-icon">
-              <label for="user_email" class="open-label"> E-mail </label>
-              <input
-                type="email"
-                name="email"
-                minlength="5"
-                maxlength="100"
-                id="user_email"
-                class="open-text"
+                class="frame__inside"
                 required
               />
               <p>
                 <svg
                   width="14px"
                   height="14px"
-                  class="open-icon open-icon-email"
+                  class="frame__icon frame__icon--tel"
+                >
+                  <use href="./images/icon_send2.svg#icon-phone_icon"></use>
+                </svg>
+              </p>
+            </div>
+
+            <div class="frame">
+              <label for="user_email" class="frame__label"> E-mail </label>
+              <input
+                type="email"
+                name="email"
+                minlength="5"
+                maxlength="100"
+                id="user_email"
+                class="frame__inside"
+                required
+              />
+              <p>
+                <svg
+                  width="14px"
+                  height="14px"
+                  class="frame__icon frame__icon--email"
                 >
                   <use href="./images/icon_send2.svg#icon-email_icon"></use>
                 </svg>
               </p>
             </div>
 
-            <div class="sky-icon">
-              <label class="open-label">
+            <div class="frame">
+              <label class="frame__label">
                 Komentarz
                 <textarea
                   name="Komentarz"
                   placeholder="Wprowadź tekst"
                   minlength="10"
                   maxlength="300"
-                  class="open-bigtext"
+                  class="frame__text"
                 ></textarea>
               </label>
             </div>
             <div>
-              <label class="text-checkbox">
+              <label class="checkbox">
                 <input
                   type="checkbox"
                   name="acceptance"
                   value="Oświadczam iż akceptuję Regulamin i Politykę Prywatności."
-                  class="open-checkbox"
+                  class="checkbox__point"
                   required
                 />
-                <svg width="16px" height="15px" class="checkbox-icon">
+                <svg width="16px" height="15px" class="checkbox__point--icon">
                   <use href="./images/icon_checkbox.svg#icon-checkbox"></use>
                 </svg>
                 Oświadczam iż akceptuję
@@ -560,7 +564,7 @@
                 <a href="#">Politykę Prywatności.</a>
               </label>
             </div>
-            <button type="submit" class="open-send">Wyślij</button>
+            <button type="submit" class="push-form">Wyślij</button>
           </div>
         </form>
       </div>
