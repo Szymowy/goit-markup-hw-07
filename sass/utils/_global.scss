@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --milk: #ffffff;
+  --night: #212121;
+  --fog: #2f303a;
+  --sky: #2196f3;
+  --snow: #f5f4fa;
+  --cloud: #757575;
+  --coffee: #000000;
+  --border: #eeeeee;
+  --late: #afb1b8;
+  --pixel: 14px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--milk);
+  color: var(--night);
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: var(--milk);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+ul {
+  list-style-type: none;
+}
