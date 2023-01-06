@@ -1,0 +1,28 @@
+.mag {
+  padding: 94px 15px;
+  gap: 30px;
+}
+.box {
+  font-weight: 700;
+  font-size: var(--pixel);
+  line-height: 1.14;
+
+  &__icon {
+    background-color: var(--snow);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    padding: 25px 0px;
+    text-align: center;
+  }
+
+  &__text {
+    color: var(--cloud);
+    font-weight: 400;
+    font-size: var(--pixel);
+    line-height: 1.7;
+  }
+  &__inter {
+    padding-top: 10px;
+  }
+}

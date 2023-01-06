@@ -1,0 +1,39 @@
+.section {
+  padding-bottom: 94px;
+
+  &__type {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+  }
+  &__place {
+    padding-bottom: 50px;
+  }
+  &__inter {
+    gap: 30px;
+  }
+}
+.photo-work {
+  position: relative;
+  overflow: hidden;
+
+  &__block {
+    display: block;
+  }
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--milk);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.18;
+    text-align: center;
+  }
+  &__text {
+    padding-top: 27px;
+  }
+}
