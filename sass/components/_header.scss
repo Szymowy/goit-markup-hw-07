@@ -12,14 +12,16 @@
 
     &--breand {
       font-family: "Raleway", sans-serif;
-      color: var(--coffee);
+      // color: var(--coffee);
+      color: $secondaryColor;
       font-size: 26px;
       line-height: 1.19;
       margin-right: 93px;
       text-decoration: none;
     }
     &--breand:focus {
-      color: var(--sky);
+      // color: var(--sky);
+      color: $skyColor;
     }
   }
   &__pages {
@@ -42,13 +44,15 @@
     &--name {
       color: inherit;
       font-weight: 500;
-      font-size: var(pixel);
+      // font-size: var(pixel);
+      font-size: 16px;
       line-height: 1.14;
       text-decoration: none;
     }
     &--name:hover,
     &--name:focus {
-      color: var(--sky);
+      // color: var(--sky);
+      color: $skyColor;
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
@@ -60,11 +64,13 @@
     padding: 32px 0px;
 
     &--color {
-      fill: var(--cloud);
+      // fill: var(--cloud);
+      fill: $cloudColor;
     }
     &--color:hover,
     &--color:focus {
-      fill: var(--sky);
+      // fill: var(--sky);
+      fill: $skyColor;
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }

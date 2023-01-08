@@ -19,7 +19,8 @@
   transition-delay: 250ms;
   width: 528px;
   height: 581px;
-  background-color: var(--milk);
+  // background-color: var(--milk);
+  background-color: $primaryColor;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -31,14 +32,16 @@
   top: 8px;
   width: 30px;
   height: 30px;
-  background: #ffffff;
+  // background: #ffffff;
+  background-color: $primaryColor;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
 }
 
 .open {
-  color: var(--night);
+  // color: var(--night);
+  color: $nightColor;
   width: 448px;
   height: 23px;
   font-weight: 700;
@@ -60,7 +63,8 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 1.166;
-    color: var(--cloud);
+    // color: var(--cloud);
+    color: $cloudColor;
   }
   &__label textarea[type="placeholder"] {
     color: rgba(117, 117, 117, 0.5);
@@ -106,17 +110,20 @@
   }
 }
 .frame input:focus + p {
-  fill: var(--sky);
+  // fill: var(--sky);
+  fill: $skyColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .frame input:focus,
 .frame textarea:focus {
   outline: 0px;
-  border: 1px solid var(--sky);
+  // border: 1px solid var(--sky);
+  border: 1px solid $skyColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox {
-  color: var(--cloud);
+  // color: var(--cloud);
+  color: $cloudColor;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -128,7 +135,8 @@
 
   &__point {
     align-items: center;
-    background: var(--milk);
+    // background: var(--milk);
+    background-color: $primaryColor;
     margin: 0;
     appearance: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -139,9 +147,12 @@
 
     &--icon {
       position: absolute;
-      background-color: var(--sky);
-      fill: var(--milk);
-      border: 1px solid var(--sky);
+      // background-color: var(--sky);
+      background-color: $skyColor;
+      // fill: var(--milk);
+      fill: $primaryColor;
+      // border: 1px solid var(--sky);
+      border: 1px solid $skyColor;
       border-radius: 2px;
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
       opacity: 0;
@@ -154,11 +165,14 @@
 }
 
 .checkbox a {
-  color: var(--sky);
+  // color: var(--sky);
+  color: $skyColor;
 }
 .push-form {
-  color: var(--milk);
-  background-color: var(--sky);
+  // color: var(--milk);
+  color: $primaryColor;
+  // background-color: var(--sky);
+  background-color: $skyColor;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -174,8 +188,10 @@
 
   &:hover,
   &:focus {
-    color: var(--night);
-    background-color: var(----snow);
+    // color: var(--night);
+    color: $nightColor;
+    // background-color: var(----snow);
+    background-color: $snowColor;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
