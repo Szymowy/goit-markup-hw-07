@@ -1,5 +1,4 @@
 .main-wall {
-  // background-color: var(--fog);
   background-color: $fogColor;
   background-image: linear-gradient(
       to bottom,
@@ -27,9 +26,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  // background: var(--snow);
   background-color: $snowColor;
-  // color: var(--night);
   color: $nightColor;
   display: block;
   border: none;
@@ -37,11 +34,9 @@
 
   &:hover,
   &:focus {
-    // background: var(--sky);
     background-color: $skyColor;
-    // color: var(--milk);
     color: $primaryColor;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $typicalTransition;
     cursor: pointer;
   }
   &__label {
@@ -51,8 +46,8 @@
     margin-left: auto;
 
     &--shadow:hover {
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: $typicalShade;
+      transition: $typicalTransition;
     }
   }
 }

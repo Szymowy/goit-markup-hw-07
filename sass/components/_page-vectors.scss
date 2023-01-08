@@ -4,12 +4,10 @@
 }
 .box {
   font-weight: 700;
-  // font-size: var(--pixel);
   font-size: $pixel;
   line-height: 1.14;
 
   &__icon {
-    // background-color: var(--snow);
     background-color: $snowColor;
     width: 270px;
     height: 120px;
@@ -19,10 +17,8 @@
   }
 
   &__text {
-    // color: var(--cloud);
     color: $cloudColor;
     font-weight: 400;
-    // font-size: var(--pixel);
     font-size: $pixel;
     line-height: 1.7;
   }
