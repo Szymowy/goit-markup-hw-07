@@ -1,12 +1,12 @@
-.mag {
+.box {
   padding: 94px 15px;
   gap: 30px;
-}
-.box {
-  font-weight: 700;
-  font-size: $pixel;
-  line-height: 1.14;
 
+  &__main {
+    font-weight: 700;
+    font-size: $pixel;
+    line-height: 1.14;
+  }
   &__icon {
     background-color: $snowColor;
     width: 270px;

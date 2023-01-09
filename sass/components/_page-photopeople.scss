@@ -38,18 +38,18 @@
       cursor: pointer;
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &--icon {
-      fill: $lateColor;
+  }
+  &__icon {
+    fill: $lateColor;
 
-      &:hover,
-      &:focus {
-        fill: $primaryColor;
-        transition: $typicalTransition;
-      }
+    &:hover,
+    &:focus {
+      fill: $primaryColor;
+      transition: $typicalTransition;
     }
   }
 }
 
-.circles--inter {
+.circles-inter {
   padding: 12px;
 }

@@ -9,45 +9,45 @@
   }
   &__upstil {
     padding: 24px 0px 25px;
+  }
+  &__stil {
+    font-family: "Raleway", sans-serif;
+    color: $secondaryColor;
+    font-size: 26px;
+    line-height: 1.19;
+    margin-right: 93px;
+    text-decoration: none;
 
-    &--breand {
-      font-family: "Raleway", sans-serif;
-      color: $secondaryColor;
-      font-size: 26px;
-      line-height: 1.19;
-      margin-right: 93px;
-      text-decoration: none;
-    }
-    &--breand:focus {
+    &:focus {
       color: $skyColor;
     }
   }
   &__pages {
     gap: 46px;
     padding: 32px 0px;
+  }
+  &__active {
+    position: relative;
+  }
+  &__active a::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 4px;
+    top: 49px;
+    background: #2196f3;
+    border-radius: 2px;
+  }
+  &__name {
+    color: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.14;
+    text-decoration: none;
 
-    &--active {
-      position: relative;
-    }
-    &--active a::after {
-      content: "";
-      position: absolute;
-      display: block;
-      width: 60px;
-      height: 4px;
-      top: 49px;
-      background: #2196f3;
-      border-radius: 2px;
-    }
-    &--name {
-      color: inherit;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.14;
-      text-decoration: none;
-    }
-    &--name:hover,
-    &--name:focus {
+    &:hover,
+    &:focus {
       color: $skyColor;
       transition: $typicalTransition;
     }
@@ -58,12 +58,12 @@
   &__contact {
     gap: 50px;
     padding: 32px 0px;
+  }
+  &__color {
+    fill: $cloudColor;
 
-    &--color {
-      fill: $cloudColor;
-    }
-    &--color:hover,
-    &--color:focus {
+    &:hover,
+    &:focus {
       fill: $skyColor;
       transition: $typicalTransition;
     }

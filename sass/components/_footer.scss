@@ -10,7 +10,10 @@
   line-height: 1.19;
   text-decoration: none;
 }
-.logo--breand {
+// .logo--breand {
+//   color: $skyColor;
+// }
+.logo__breand {
   color: $skyColor;
 }
 .post {
@@ -20,22 +23,22 @@
 
   &__info {
     padding-bottom: 9px;
+  }
+  &__contact {
+    color: $cloudColor;
+    font-style: normal;
+    font-size: $pixel;
+    line-height: 1.5;
+    text-decoration: none;
 
-    &--contact {
-      color: $cloudColor;
-      font-style: normal;
-      font-size: $pixel;
-      line-height: 1.5;
-      text-decoration: none;
-
-      &:hover,
-      &:focus {
-        color: $skyColor;
-        transition: $typicalTransition;
-      }
+    &:hover,
+    &:focus {
+      color: $skyColor;
+      transition: $typicalTransition;
     }
   }
 }
+
 .connect {
   padding-top: 4px;
   padding-left: 70px;
@@ -46,18 +49,18 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-
-    &--letter {
-      background-color: $fogColor;
-      width: 358px;
-      height: 48px;
-      padding-left: 16px;
-      margin-top: 20px;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      border-radius: 4px;
-      transition: $typicalTransition;
-    }
   }
+  &__letter {
+    background-color: $fogColor;
+    width: 358px;
+    height: 48px;
+    padding-left: 16px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    transition: $typicalTransition;
+  }
+
   &__circles {
     padding-top: 20px;
     gap: 10px;
@@ -86,6 +89,7 @@
     }
   }
 }
+
 .push-down {
   font-weight: 700;
   font-size: 16px;
@@ -112,16 +116,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  &__send {
+    font-size: 16px;
+    line-height: 1.875;
+    width: 82px;
+    height: 30px;
+  }
 
-    &--send {
-      font-size: 16px;
-      line-height: 1.875;
-      width: 82px;
-      height: 30px;
-    }
-
-    &--icon {
-      padding-left: 18px;
-    }
+  &__icon {
+    padding-left: 18px;
   }
 }

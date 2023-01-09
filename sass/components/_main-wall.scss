@@ -44,8 +44,9 @@
     height: 50px;
     margin-right: auto;
     margin-left: auto;
-
-    &--shadow:hover {
+  }
+  &__shadow {
+    &:hover {
       box-shadow: $typicalShade;
       transition: $typicalTransition;
     }
