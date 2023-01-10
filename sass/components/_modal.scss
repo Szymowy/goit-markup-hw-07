@@ -155,27 +155,27 @@
 .checkbox a {
   color: $skyColor;
 }
-.push-form {
-  color: $primaryColor;
-  background-color: $skyColor;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  width: 200px;
-  height: 50px;
-  margin: 10px 124px;
-  border: 0px;
-  border-radius: 4px;
-  box-shadow: $typicalShade;
-  text-align: center;
-  justify-content: center;
-  cursor: pointer;
+// .button-form {
+//   color: $primaryColor;
+//   background-color: $skyColor;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.875;
+//   width: 200px;
+//   height: 50px;
+//   margin: 10px 124px;
+//   border: 0px;
+//   border-radius: 4px;
+//   box-shadow: $typicalShade;
+//   text-align: center;
+//   justify-content: center;
+//   cursor: pointer;
 
-  &:hover,
-  &:focus {
-    color: $nightColor;
-    background-color: $snowColor;
-    box-shadow: $typicalShade;
-    transition: $typicalTransition;
-  }
-}
+//   &:hover,
+//   &:focus {
+//     color: $nightColor;
+//     background-color: $snowColor;
+//     box-shadow: $typicalShade;
+//     transition: $typicalTransition;
+//   }
+// }
