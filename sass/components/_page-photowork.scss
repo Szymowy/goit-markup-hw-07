@@ -1,17 +1,19 @@
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
 
-  &__type {
+  &__place {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-  }
-  &__place {
     padding-bottom: 50px;
   }
   &__inter {
     gap: 30px;
   }
+}
+.third-section {
+  padding-top: 0;
 }
 .photo-work {
   position: relative;

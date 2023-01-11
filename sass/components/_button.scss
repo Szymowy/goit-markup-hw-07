@@ -1,123 +1,110 @@
-// .pushy {
-//   display: flex;
-//   padding: 94px 318px 50px 310px;
-//   gap: 8px;
-// }
-// .button__labels
-.button {
-  color: $nightColor;
-  background-color: $snowColor;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  display: block;
-  border: none;
-  margin-right: auto;
-  margin-left: auto;
-  cursor: pointer;
+.button-solo {
+  padding: 40px 0px 100px;
+  // padding: 40px 0px 200px;
 
-  &:hover,
-  &:focus {
-    background-color: $skyColor;
-    color: $primaryColor;
-    transition: $typicalTransition;
+  &__btn {
+    color: $nightColor;
+    background-color: $snowColor;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    padding: 10px 41px;
+    border-radius: 4px;
+    display: block;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
 
-    box-shadow: $typicalShade;
-    // transition: $typicalTransition;
+    &:hover,
+    &:focus {
+      background-color: $skyColor;
+      color: $primaryColor;
+      transition: $typicalTransition;
+      box-shadow: $typicalShade;
+    }
   }
+}
+.button-list {
+  display: flex;
+  // padding: 94px 318px 50px 310px;
+  padding-bottom: 50px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  gap: 8px;
 
-  &--all {
-    width: 121px;
-    height: 38px;
-  }
-  &--side {
-    width: 93px;
-    height: 38px;
-  }
-  &--app {
-    width: 141px;
-    height: 38px;
-  }
-  &--design {
-    width: 91px;
-    height: 38px;
+  &__btn {
+    color: $nightColor;
+    background-color: $snowColor;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    padding: 6px 22px;
+    border-radius: 4px;
+    display: block;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
 
     &:hover {
+      background-color: $skyColor;
+      color: $primaryColor;
       box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
       transition: $typicalTransition;
     }
   }
 }
-
-// .button-down
-.btn {
+.button-down {
   color: $primaryColor;
   background-color: $skyColor;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  width: 200px;
-  height: 50px;
+  padding: 2px 28px 2px 42px;
   border-radius: 4px;
   box-shadow: $typicalShade;
+  margin-left: 10px;
+  border: $skyColor;
+  fill: $primaryColor;
   cursor: pointer;
 
-  &--down {
-    margin-left: 10px;
-    border: $skyColor;
-    fill: $primaryColor;
-
-    &:hover,
-    &:focus {
-      color: $nightColor;
-      background-color: $snowColor;
-      transition: $typicalTransition;
-      fill: $nightColor;
-    }
-  }
   &__label {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  &__send {
-    font-size: 16px;
-    line-height: 1.875;
-    width: 82px;
-    height: 30px;
-  }
-
   &__icon {
     padding-left: 18px;
   }
+  &:hover,
+  &:focus {
+    color: $nightColor;
+    background-color: $snowColor;
+    transition: $typicalTransition;
+    fill: $nightColor;
+  }
+}
+.button-form {
+  color: $primaryColor;
+  background-color: $skyColor;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  padding: 10px 72px;
+  border-radius: 4px;
+  box-shadow: $typicalShade;
+  margin: 10px 124px;
+  border: 0px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
 
-  // .button-form {
-  //   color: $primaryColor;
-  //   background-color: $skyColor;
-  //   font-weight: 700;
-  //   font-size: 16px;
-  //   line-height: 1.875;
-  //   width: 200px;
-  //   height: 50px;
-  //   border-radius: 4px;
-  //   box-shadow: $typicalShade;
-  //   cursor: pointer;
-
-  &--form {
-    margin: 10px 124px;
-    border: 0px;
-    text-align: center;
-    justify-content: center;
-
-    &:hover,
-    &:focus {
-      color: $nightColor;
-      background-color: $snowColor;
-      transition: $typicalTransition;
-    }
+  &:hover,
+  &:focus {
+    color: $nightColor;
+    background-color: $snowColor;
+    transition: $typicalTransition;
   }
 }

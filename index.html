@@ -24,43 +24,44 @@
     />
   </head>
   <body>
-    <header class="line">
-      <div class="container logo">
+    <header class="logo">
+      <div class="container logo__type">
         <div class="wrapper logo__inter">
-          <div class="logo__upstil">
-            <a class="logo__stil" href="index.html"
-              ><span class="logo__breand">Web</span>Studio</a
+          <div class="stil">
+            <a class="stil__icon" href="index.html"
+              ><span class="stil__breand">Web</span>Studio</a
             >
           </div>
-
           <div>
             <nav>
-              <ul class="wrapper logo__pages">
-                <li class="logo__active">
-                  <a class="logo__name" href="index.html">Agencja</a>
+              <ul class="wrapper pages">
+                <li class="pages__list-item">
+                  <a class="pages__name pages__name--active" href="index.html"
+                    >Agencja</a
+                  >
                 </li>
-                <li>
-                  <a class="logo__name" href="portfolio.html">Portfolio</a>
+                <li class="pages__list-item">
+                  <a class="pages__name" href="portfolio.html">Portfolio</a>
                 </li>
-                <li>
-                  <a class="logo__name" href="index.html">Kontakt</a>
+                <li class="pages__list-item">
+                  <a class="pages__name" href="index.html">Kontakt</a>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
-        <div class="logo__navi">
-          <ul class="logo logo__contact">
+        <div class="navi">
+          <ul class="logo__type navi__contact">
             <li>
               <a href="mailto:info@S.com">
-                <svg class="logo__color" width="161px" height="16px">
+                <svg class="navi__color" width="161px" height="16px">
                   <use href="./images/icons.svg#icon-E-mail"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="tel:+48111111111">
-                <svg class="logo__color" width="130px" height="16px">
+                <svg class="navi__color" width="130px" height="16px">
                   <use href="./images/icons.svg#icon-Tel"></use>
                 </svg>
               </a>
@@ -75,8 +76,8 @@
           <div class="main-wall__title">
             <h1>efektywne rozwiązania dla twojego biznesu</h1>
           </div>
-          <div class="main-wall__button">
-            <button class="button" type="button" data-modal-open>
+          <div class="button-solo">
+            <button class="button-solo__btn" type="button" data-modal-open>
               Zamów usługę
             </button>
           </div>
@@ -92,7 +93,7 @@
                 </svg>
                 LOREM IPSUM
               </h3>
-              <p class="box__text box__inter">
+              <p class="box__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -104,7 +105,7 @@
                 </svg>
                 LOREM IPSUM
               </h3>
-              <p class="box__text box__inter">
+              <p class="box__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -116,7 +117,7 @@
                 </svg>
                 LOREM IPSUM
               </h3>
-              <p class="box__text box__inter">
+              <p class="box__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -128,7 +129,7 @@
                 </svg>
                 LOREM IPSUM
               </h3>
-              <p class="box__text box__inter">
+              <p class="box__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -136,11 +137,9 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section third-section">
         <div class="container">
-          <h2 class="section__type section__place wrapper">
-            Czym sie zajmujemy
-          </h2>
+          <h2 class="section__place wrapper">Czym sie zajmujemy</h2>
           <ul class="section__inter wrapper">
             <li>
               <div class="photo-work">
@@ -189,9 +188,7 @@
       </section>
       <section class="section wall">
         <div class="container">
-          <h2 class="section__type section__place wall__place wrapper">
-            Nasz zespół
-          </h2>
+          <h2 class="section__place wall__place wrapper">Nasz zespół</h2>
           <ul class="section__inter wrapper">
             <li class="photo-people">
               <figure>
@@ -206,22 +203,22 @@
                   <h3>John Doe</h3>
                   <p class="box__inter">Product Designer</p>
                   <ul class="wrapper photo-people__inter">
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-instagram_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-twitter_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-facebook_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-linkedin_li"></use>
                       </svg>
@@ -243,22 +240,22 @@
                   <h3>John Doe</h3>
                   <p class="box__inter">Product Designer</p>
                   <ul class="wrapper photo-people__inter">
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-instagram_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-twitter_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-facebook_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-linkedin_li"></use>
                       </svg>
@@ -280,22 +277,22 @@
                   <h3>John Doe</h3>
                   <p class="box__inter">Product Designer</p>
                   <ul class="wrapper photo-people__inter">
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-instagram_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-twitter_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-facebook_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-linkedin_li"></use>
                       </svg>
@@ -317,22 +314,22 @@
                   <h3>John Doe</h3>
                   <p class="box__inter">Product Designer</p>
                   <ul class="wrapper photo-people__inter">
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-instagram_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-twitter_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-facebook_li"></use>
                       </svg>
                     </li>
-                    <li class="photo-people__type photo-people__icon">
+                    <li class="photo-people__icon">
                       <svg class="circles-inter" width="44px" height="44px">
                         <use href="./images/icons.svg#icon-linkedin_li"></use>
                       </svg>
@@ -346,36 +343,34 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="section__type section__place wall__place wrapper">
-            Nasi klienci
-          </h2>
+          <h2 class="section__place wall__place wrapper">Nasi klienci</h2>
           <ul class="section__inter wrapper">
-            <li class="icon icon__type">
+            <li class="icon">
               <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-yaco"></use>
               </svg>
             </li>
-            <li class="icon icon__type">
+            <li class="icon">
               <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-companytaglinehere"></use>
               </svg>
             </li>
-            <li class="icon icon__type">
+            <li class="icon">
               <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-company"></use>
               </svg>
             </li>
-            <li class="icon icon__type">
+            <li class="icon">
               <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-fosterpeters"></use>
               </svg>
             </li>
-            <li class="icon icon__type">
+            <li class="icon">
               <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-brand"></use>
               </svg>
             </li>
-            <li class="icon icon__type">
+            <li class="icon">
               <svg class="icon__place" width="170px" height="90px">
                 <use href="./images/icons.svg#icon-companytagline"></use>
               </svg>
@@ -385,10 +380,10 @@
       </section>
     </main>
     <footer class="down-wall">
-      <div class="container logo">
+      <div class="container logo__type">
         <div>
-          <a class="logo__downstil" href="index.html"
-            ><span class="logo__breand">Web</span>Studio</a
+          <a class="down-wall__stil" href="index.html"
+            ><span class="stil__breand">Web</span>Studio</a
           >
           <address>
             <ul class="post">
@@ -443,10 +438,10 @@
                 required
               />
             </label>
-            <button type="submit" class="btn btn--down">
-              <span class="btn__label">
-                <span class="btn__send">Zapisz się</span>
-                <svg class="btn__icon" width="44px" height="44px">
+            <button type="submit" class="button-down">
+              <span class="button-down__label">
+                <span>Zapisz się</span>
+                <svg class="button-down__icon" width="44px" height="44px">
                   <use href="./images/icon-send.svg#icon-icon-send"></use>
                 </svg>
               </span>
@@ -557,7 +552,7 @@
                 <a href="#">Politykę Prywatności.</a>
               </label>
             </div>
-            <button type="submit" class="btn btn--form">Wyślij</button>
+            <button type="submit" class="button-form">Wyślij</button>
           </div>
         </form>
       </div>

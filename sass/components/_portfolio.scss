@@ -1,13 +1,14 @@
-.push {
-  display: flex;
-  padding: 94px 318px 50px 310px;
-  gap: 8px;
-}
 .photo-port {
   flex-wrap: wrap;
   gap: 30px;
   padding-bottom: 94px;
 
+  &__glass:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: $typicalTransition;
+  }
   &__img {
     position: relative;
     overflow: hidden;
@@ -25,28 +26,20 @@
     font-size: 18px;
     line-height: 1.5555;
     justify-content: center;
+    padding: 49px 49px 49px 40px;
   }
   &__img:hover &__overlay {
     transform: translateX(0);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &__text {
-    padding: 49px 45px 49px 24px;
-  }
-  &__type {
-    padding: 20px 24px;
-    border-left: 1px solid $borderColor;
-    border-right: 1px solid $borderColor;
-    border-bottom: 1px solid $borderColor;
-  }
+}
+.photo-title {
+  padding: 20px 24px;
+  border-left: 1px solid $borderColor;
+  border-right: 1px solid $borderColor;
+  border-bottom: 1px solid $borderColor;
+
   &__place {
     height: 36px;
-  }
-
-  &__glass:hover {
-    cursor: pointer;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: $typicalTransition;
   }
 }

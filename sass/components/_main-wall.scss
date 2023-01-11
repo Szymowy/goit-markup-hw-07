@@ -13,36 +13,9 @@
   margin: 0 auto;
 
   &__title {
-    padding: 180px 252px 0px;
+    // padding: 180px 252px 0px;
+    padding: 100px 252px 0px;
     text-transform: uppercase;
     text-align: center;
   }
-  &__button {
-    padding: 40px 0px 210px;
-  }
 }
-
-// .button {
-//   font-weight: 700;
-//   font-size: 16px;
-//   line-height: 1.875;
-//   background-color: $snowColor;
-//   color: $nightColor;
-//   display: block;
-//   border: none;
-//   border-radius: 5px;
-//   width: 200px;
-//   height: 50px;
-//   margin-right: auto;
-//   margin-left: auto;
-
-//   &:hover,
-//   &:focus {
-//     background-color: $skyColor;
-//     color: $primaryColor;
-//     transition: $typicalTransition;
-//     cursor: pointer;
-//     box-shadow: $typicalShade;
-//     transition: $typicalTransition;
-//   }
-// }
